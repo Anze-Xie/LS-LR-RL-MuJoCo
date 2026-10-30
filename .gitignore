@@ -1,0 +1,40 @@
+# Python 编译及缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python 虚拟环境 (Virtual Environments)
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# PyCharm 自动生成的配置文件夹
+.idea/
+
+# VS Code 配置（以防有人用 VS Code 打开）
+.vscode/
+
+# 强化学习训练产生的日志、模型权重和数据文件（防止把大型文件推送到 GitHub）
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.h5
+logs/
+runs/
+wandb/
+tensorboard/
+*.log
+
+# MuJoCo / 仿真系统临时文件或缓存
+*.mujoco/
+mujoco_plugin/
+*.out
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
