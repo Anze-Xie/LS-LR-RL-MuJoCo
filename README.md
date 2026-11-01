@@ -7,7 +7,7 @@ Locomotion Simulation of Legged Robot Based on Reinforcement Learning in MuJoCo
 ├── assets/                    # 机器人模型与复杂地形描述文件 (MJCF / XML / URDF)
 │   ├── robots/                # 机器人模型（如 Unitree A1 / Go1 / 人形等）
 │   │   └── robot.xml
-│   └── terrains/              # 复杂环境模型（平地、斜坡、楼梯、梅花桩等）
+│   └── terrains/              # 地形（平地、斜坡、楼梯、梅花桩等）
 │       ├── flat.xml
 │       ├── slope.xml
 │       ├── stairs.xml
@@ -44,3 +44,9 @@ Locomotion Simulation of Legged Robot Based on Reinforcement Learning in MuJoCo
 ├── .gitignore                 # Git 忽略规则文件
 ├── README.md                  # 项目主文档（包含项目简介、安装方法、运行命令）
 └── requirements.txt           # 项目依赖包清单
+```
+
+在虚拟环境安装依赖项
+```bash
+pip install -r requirements.txt
+```
